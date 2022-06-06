@@ -2,13 +2,7 @@
 
 PoolTogether V4 Network Rollout guide for deplying to new blockchains.
 
-## Sequencing: Testnet and Mainnet
-
-The rollout of a new PoolTogether PrizePool on a new blockchain is divided into two sequences: testnet and mainnet.
-
-**Testnet Sequence:** Deployment on a live testnet envrionment i.e. Rinkeby, Kovan, Mumbai, etc...
-
-**Mainnet Sequence:** Deployment on a live production envrionment i.e. Ethereum, Polygon, Optimism, etc...
+## 🏗️ Steps: Create PrizePool
 
 Each sequence includes the following steps:
 
@@ -18,7 +12,7 @@ Each sequence includes the following steps:
 - **API:** Configure Cron Jobs to Fetch Subgraph Data
 - **Application:** Add new blockchain smart contracts to Production App
 
-## Network Deployment Stages 
+## 🚛 Stages: Setup, Tooling and Launch
 
 The steps are grouped into 3 stages: **setup, tooling and launch.**
 
@@ -39,3 +33,11 @@ The second stage is setting up the caching and data availability services: subgr
 The third and final stage of a sequence is adding the new PrizePool to the Application frontend and completing Quality Assurance, before publishing to the production website.
 - Application
 - Quality Assurance
+
+## ⛓️ Sequencing: Testnet and Mainnet
+
+The rollout of a new PoolTogether PrizePool on a new blockchain is divided into two sequences: testnet and mainnet.
+
+**Testnet Sequence:** Deployment on a live testnet envrionment i.e. Rinkeby, Kovan, Mumbai, etc...
+
+**Mainnet Sequence:** Deployment on a live production envrionment i.e. Ethereum, Polygon, Optimism, etc...
